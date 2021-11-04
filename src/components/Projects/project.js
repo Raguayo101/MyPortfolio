@@ -10,31 +10,34 @@ const handleSubmit = () => {
 
 const Project = () => {
     return (
-        <section class="section">
-            <div class="container">
+        <section className="section">
+            <div className="container">
+                <p className=" box has-text-centered is-size-4 has-text-dark has-text-weight-bold">
+                    Projects
+                </p>
 
 
-                <div class="columns is-centered is-vcentered">
-                    <div class="column ">
+                <div className="columns is-centered is-vcentered">
+                    <div className="column ">
 
-                        <div class="card">
+                        <div className="card">
 
-                            <figure class="image is-4by3 m-0">
+                            <figure className="image is-4by3 m-0">
                                 <img src={WhatToWatch} alt="image of project" />
                             </figure>
 
 
-                            <div class="card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <button class="button">
+                            <div className="card-content">
+                                <div className="media">
+                                    <div className="media-left">
+                                        <button className="button">
                                             <a href='https://raguayo101.github.io/What-to-Watch/'>view
                                                 here
                                             </a>
                                         </button>
                                     </div>
-                                    <div class="media-content">
-                                        <p class="title is-6">"What to Watch" is a website that generates a random movie
+                                    <div className="media-content">
+                                        <p className="title is-6">"What to Watch" is a website that generates a random movie
                                             based off of the users filtered options.</p>
                                     </div>
                                 </div>
@@ -42,25 +45,25 @@ const Project = () => {
                         </div>
                     </div>
 
-                    <div class="column">
-                        <div class="card">
+                    <div className="column">
+                        <div className="card">
 
-                            <figure class="image is-4by3 m-0">
+                            <figure className="image is-4by3 m-0">
                                 <img src={WorkDay} alt="Placeholder image" />
                             </figure>
 
 
-                            <div class="card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <button class="button">
+                            <div className="card-content">
+                                <div className="media">
+                                    <div className="media-left">
+                                        <button className="button">
                                             <a href='https://raguayo101.github.io/Work-Day-Scheduler/'>view
                                                 here
                                             </a>
                                         </button>
                                     </div>
-                                    <div class="media-content">
-                                        <p class="title is-6">A Work day scheduler to help you better keep time of your day!
+                                    <div className="media-content">
+                                        <p className="title is-6">A Work day scheduler to help you better keep time of your day!
                                         </p>
                                     </div>
                                 </div>
@@ -68,24 +71,24 @@ const Project = () => {
                         </div>
                     </div>
 
-                    <div class="column">
-                        <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-4by3 m-0">
+                    <div className="column">
+                        <div className="card">
+                            <div className="card-image">
+                                <figure className="image is-4by3 m-0">
                                     <img src={Outbreak} alt="Placeholder image" />
                                 </figure>
                             </div>
 
-                            <div class="card-content">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <button class="button">
+                            <div className="card-content">
+                                <div className="media">
+                                    <div className="media-left">
+                                        <button className="button">
                                             <a href='https://outbreak-420.herokuapp.com/'> view
                                                 here</a>
                                         </button>
                                     </div>
-                                    <div class="media-content">
-                                        <p class="title is-6">Come try out our game! Outbreak!</p>
+                                    <div className="media-content">
+                                        <p className="title is-6">Come try out our game! Outbreak!</p>
                                     </div>
                                 </div>
                             </div>

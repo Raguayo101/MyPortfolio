@@ -3,6 +3,7 @@ import Navbar from "../Navbar/navbar";
 import About from "../about/about";
 import HeaderProfile from "../header/Header";
 import Project from "../Projects/project";
+import Footer from "../footer/footer";
 
 
 const Homepage = () => {
@@ -15,11 +16,10 @@ const Homepage = () => {
                 <About />
             </div>
             <div>
-                <HeaderProfile />
-            </div>
-
-            <div>
                 <Project />
+            </div>
+            <div>
+                <Footer></Footer>
             </div>
         </div>
 

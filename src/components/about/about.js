@@ -4,15 +4,15 @@ import myPhoto from '../../assets/images/photo_of_me.jpg';
 const About = () => {
     return (
 
-        <section class="section">
+        <section className="section">
 
-            <div class="container" id="about">
+            <div className="container" id="about">
 
 
-                <div class="columns switch is-flex is-justify-content-space-evenly has-text-white">
-                    <div class="column is-two-fifths">
-                        <h1 class="has-text-weight-bold is-size-1">This is Rodrigo Aguayo</h1>
-                        <p class="is-size-4">Aspiring web developer</p>
+                <div className="columns switch is-flex is-justify-content-space-evenly has-text-white">
+                    <div className="column is-two-fifths">
+                        <h1 className="has-text-weight-bold is-size-1">This is Rodrigo Aguayo</h1>
+                        <p className="is-size-4">Aspiring web developer</p>
 
                         <hr />
 
@@ -21,30 +21,30 @@ const About = () => {
                             development.
                         </p>
 
-                        <button class="button my-2"><a href="mailto: RodrigoAguayo94@gmail.com">Get in touch</a></button>
+                        <button className="button my-2"><a href="mailto: RodrigoAguayo94@gmail.com">Get in touch</a></button>
 
-                        <ul class="social" id="contact">
+                        <ul className="social" id="contact">
                             <li>
                                 <a href="mailto: RodrigoAguayo94@gmail.com" target="_blank">
-                                    <i class="fas fa-envelope-square"></i>
+                                    <i className="fas fa-envelope-square"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/Raguayo101" target="_blank">
-                                    <i class="fab fa-github"></i>
+                                    <i className="fab fa-github"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/rodrigo-aguayo-b4150b192/" target="_blank">
-                                    <i class="fab fa-linkedin"></i>
+                                    <i className="fab fa-linkedin"></i>
                                 </a>
                             </li>
                         </ul>
 
                     </div>
 
-                    <div class="column is-two-fifths ">
-                        <img src={myPhoto} alt="photo of me" class="profile-img" />
+                    <div className="column is-two-fifths ">
+                        <img src={myPhoto} alt="photo of me" className="profile-img" />
                     </div>
 
                 </div>

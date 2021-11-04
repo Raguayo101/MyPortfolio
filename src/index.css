@@ -44,6 +44,15 @@ hr {
   width: 4rem;
 }
 
+.footer-list {
+  display: flex;
+}
+
+.footer-list li {
+  list-style-type: none;
+  margin: 20px;
+}
+
 .profile-img {
   max-width: 46%;
   border-radius: 120694px;
@@ -68,6 +77,7 @@ hr {
   margin-right: 0.5rem;
   text-align: center;
   width: 2rem;
+  list-style-type: none;
 }
 
 .social a {
