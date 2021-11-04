@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.fb05f93b.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.799dddc0.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.799dddc0.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.688a7bc4.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.688a7bc4.js.map",
+    "static/js/2.9245ac39.chunk.js": "/MyPortfolio/static/js/2.9245ac39.chunk.js",
+    "static/js/2.9245ac39.chunk.js.map": "/MyPortfolio/static/js/2.9245ac39.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/main.fb05f93b.chunk.css.map": "/MyPortfolio/static/css/main.fb05f93b.chunk.css.map",
+    "static/js/2.9245ac39.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.9245ac39.chunk.js.LICENSE.txt",
+    "static/media/Watch_to_watch_homepage.a864d864.png": "/MyPortfolio/static/media/Watch_to_watch_homepage.a864d864.png",
+    "static/media/outbreak.8223745c.png": "/MyPortfolio/static/media/outbreak.8223745c.png",
+    "static/media/photo_of_me.fce40ca7.jpg": "/MyPortfolio/static/media/photo_of_me.fce40ca7.jpg",
+    "static/media/work_day.f66762b3.png": "/MyPortfolio/static/media/work_day.f66762b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.688a7bc4.js",
+    "static/js/2.9245ac39.chunk.js",
+    "static/css/main.fb05f93b.chunk.css",
+    "static/js/main.799dddc0.chunk.js"
+  ]
+}
